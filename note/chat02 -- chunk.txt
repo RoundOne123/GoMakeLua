@@ -1,0 +1,14 @@
+【二进制chunk】
+	为了提高效率：
+	lua代码 ->（lua编译器）-> 字节码 ->（Lua虚拟机执行）-> 
+	
+	Lua字节码 需要一个载体，就是二进制chunk
+	
+	一段可以被Lua解释器解释执行的代码就叫做chunk
+	
+【CMD编译go语言代码时注意事项：】
+直接调用 go install xxx 时 会直接编译 goPath的路径下的第一个xxx名的文件
+所以 要注意 保持 goPath路径的唯一性
+
+编译 反编译 lua文件使用 luac53 
+直接在命令行执行使用 lua、lua53
